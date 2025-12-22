@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "name": "יוסי כהן",
+      "name_en": "Yossi Cohen",
+      "email": "yossi.cohen@email.com",
+      "phone": "050-1234567",
+      "prescriptions": ["med_003"],
+      "allergies": [],
+      "preferred_language": "he"
+    },
+    {
+      "id": "user_002",
+      "name": "שרה לוי",
+      "name_en": "Sara Levy",
+      "email": "sara.levy@email.com",
+      "phone": "052-2345678",
+      "prescriptions": ["med_005"],
+      "allergies": ["Ibuprofen"],
+      "preferred_language": "he"
+    },
+    {
+      "id": "user_003",
+      "name": "דוד מזרחי",
+      "name_en": "David Mizrahi",
+      "email": "david.m@email.com",
+      "phone": "053-3456789",
+      "prescriptions": [],
+      "allergies": [],
+      "preferred_language": "he"
+    },
+    {
+      "id": "user_004",
+      "name": "רחל אברהם",
+      "name_en": "Rachel Avraham",
+      "email": "rachel.a@email.com",
+      "phone": "054-4567890",
+      "prescriptions": ["med_003", "med_005"],
+      "allergies": ["Paracetamol"],
+      "preferred_language": "he"
+    },
+    {
+      "id": "user_005",
+      "name": "מיכאל גרין",
+      "name_en": "Michael Green",
+      "email": "michael.green@email.com",
+      "phone": "050-5678901",
+      "prescriptions": [],
+      "allergies": [],
+      "preferred_language": "en"
+    },
+    {
+      "id": "user_006",
+      "name": "תמר שפירא",
+      "name_en": "Tamar Shapira",
+      "email": "tamar.s@email.com",
+      "phone": "052-6789012",
+      "prescriptions": ["med_003"],
+      "allergies": ["Amoxicillin"],
+      "preferred_language": "he"
+    },
+    {
+      "id": "user_007",
+      "name": "אבי בן דוד",
+      "name_en": "Avi Ben David",
+      "email": "avi.bd@email.com",
+      "phone": "053-7890123",
+      "prescriptions": [],
+      "allergies": [],
+      "preferred_language": "he"
+    },
+    {
+      "id": "user_008",
+      "name": "נועה כץ",
+      "name_en": "Noa Katz",
+      "email": "noa.katz@email.com",
+      "phone": "054-8901234",
+      "prescriptions": ["med_005"],
+      "allergies": ["Metamizole"],
+      "preferred_language": "he"
+    },
+    {
+      "id": "user_009",
+      "name": "אלי פרידמן",
+      "name_en": "Eli Friedman",
+      "email": "eli.f@email.com",
+      "phone": "050-9012345",
+      "prescriptions": [],
+      "allergies": [],
+      "preferred_language": "en"
+    },
+    {
+      "id": "user_010",
+      "name": "מיה רוזנברג",
+      "name_en": "Mia Rosenberg",
+      "email": "mia.r@email.com",
+      "phone": "052-0123456",
+      "prescriptions": ["med_003"],
+      "allergies": [],
+      "preferred_language": "he"
+    }
+  ]
+}
