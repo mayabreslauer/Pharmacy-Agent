@@ -2,12 +2,11 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# העתקת קובץ requirements והתקנת חבילות
+
 COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip \
     && pip install -r requirements.txt
 
-# העתקת כל קבצי backend
 COPY . .
 
 EXPOSE 8000
