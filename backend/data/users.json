@@ -37,7 +37,7 @@
       "email": "rachel.a@email.com",
       "phone": "054-4567890",
       "prescriptions": ["med_003", "med_005"],
-      "allergies": ["Paracetamol","פאראצטמול"],
+      "allergies": ["Paracetamol","פאראצטמול","פרצטמול"],
       "preferred_language": "he"
     },
     {
