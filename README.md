@@ -36,7 +36,6 @@ For every request the agent will use a tool, except requests he can't do.
 
 ## Files in the Repository
 * requirements.txt
-* .env
 * docker-compose.yml
 * README.md
 * evaluation.md
