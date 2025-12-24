@@ -1,6 +1,6 @@
 # Pharmacy-Agent 
 This is an AI-powered pharmacist assistant for a retail pharmacy chain. The agent will serve customers through chat, using data from the pharmacy’s internal systems. It will help you to get information about medications, prescriptions and stock availability.
-For every request the agent will use a tool, except requests he can't do.
+For every request the agent will use a tool, except unsupported requests - but it responds appropriately.
 
 ## Features - Tools
 * Get information about medications
