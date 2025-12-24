@@ -1,5 +1,5 @@
 """
-FastAPI Server for Pharmacy Agent - FULLY WORKING VERSION
+FastAPI Server for Pharmacy Agent 
 """
 
 from fastapi import FastAPI, HTTPException
