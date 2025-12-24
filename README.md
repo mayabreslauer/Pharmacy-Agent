@@ -49,8 +49,10 @@ For every request the agent will use a tool, except requests he can't do.
 * Dockfile
 
 ## Example of Chat With The Agent
-```User: What medications contain Ibuprofen?
+```
+User: What medications contain Ibuprofen?
 Agent: Calls tool get_medication_info("Ibuprofen")
 Tool: returns: Nurofen 400mg, non-prescription
-Agent: Nurofen contains Ibuprofen...```
+Agent: Nurofen contains Ibuprofen...
+```
 
