@@ -37,6 +37,8 @@ For every request the agent will use a tool, except requests he can't do.
 * docker-compose.yml
 * README.md
 * evaluation.md
+* Multi-Step Workflows Demonstration.pdf
+* Evidence.pdf
 ### Backend Folder
 * agent.py
 * api.py
