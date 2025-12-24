@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: pharmacy-agent-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}  # תוודאי שיש לך .env בקובץ הראשי עם המפתח
+    volumes:
+      - ./backend:/app   # מאפשר עדכון קבצים מיידי בזמן ריצה
+
+  frontend:
+    build: ./frontend
+    container_name: pharmacy-agent-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/usr/share/nginx/html
