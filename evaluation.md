@@ -27,7 +27,7 @@ Evaluation is performed via automated tests and manual checks:
 * Correctness: The correct tool is called (tool calls), responses contain expected values (should_contain) and do not contain forbidden phrases (should_not_contain)
 * Robustness: No hallucinations when information is missing, graceful handling of invalid input
 * Language Adaptation: Responses match the user's language, mid-flow language switches are handled seamlessly
-* Multi-Step Handling:, All steps in multi-step flows are executed successfully, context is maintained across messages
+* Multi-Step Handling: All steps in multi-step flows are executed successfully, context is maintained across messages
 * Streaming / SSE Handling: No crashes during streaming, frontend receives incremental updates smoothly
 
 ## 4. Evaluation Checklist for Reviewers
