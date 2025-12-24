@@ -26,7 +26,10 @@ For every request the agent will use a tool, except requests he can't do.
    ```
 * Download Docker Desktop: https://www.docker.com/products/docker-desktop
 * Enter to Pharmacy-Agent folder via explorer
-* Add to .env file yor OPENAI_API_KEY
+* Create .env file and add your openai api key
+  ```
+  OPENAI_API_KEY= {YOUR API KEY}
+  ```
 * Enter Pharmacy-Agent folder via terminal
 * ```docker-compose up --build```
 * open in explorer: http://localhost:80 to use the agent
