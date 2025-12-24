@@ -7,9 +7,9 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - OPENAI_API_KEY=${OPENAI_API_KEY}  # תוודאי שיש לך .env בקובץ הראשי עם המפתח
+      - OPENAI_API_KEY=${OPENAI_API_KEY}  
     volumes:
-      - ./backend:/app   # מאפשר עדכון קבצים מיידי בזמן ריצה
+      - ./backend:/app   
 
   frontend:
     build: ./frontend
@@ -20,3 +20,4 @@ services:
       - backend
     volumes:
       - ./frontend:/usr/share/nginx/html
+
