@@ -19,8 +19,8 @@ For every request the agent will use a tool, except requests he can't do.
 * Docker + Docker compose
   
 ## Installation
-* Clone the repository 
-  ```git clone https://github.com/mayabreslauer/Pharmacy-Agent.git \n cd Pharmacy-Agent```
+* Clone the repository ```git clone https://github.com/mayabreslauer/Pharmacy-Agent.git```
+  ```cd Pharmacy-Agent```
 * Download Docker Desktop: https://www.docker.com/products/docker-desktop
 * Enter to Pharmacy-Agent folder via explorer
 * Add to .env file yor OPENAI_API_KEY
