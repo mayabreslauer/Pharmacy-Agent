@@ -147,66 +147,13 @@ Scenario →	Expected Behavior
 * User switches languages mid-conversation →	Agent maintains continuity
 * SSE disconnect →	Frontend recovers gracefully
 
-## 5. Quantitative Metrics
-
-These optional metrics help evaluate overall system quality.
-
-Latency – time from user request → first streamed token (< 500ms ideal).
-
-Token Streaming Smoothness – no long gaps (>2s) unless necessary.
-
-Tool Success Rate – at least 95% of tool calls should complete successfully.
-
-Accuracy – >90% of tool responses should match DB entries.
-
-Workflow Completion Rate – multi-step flows should complete successfully ≥ 90% of the time.
-
-## 6. Evaluation Checklist for Reviewers
-
-A reviewer should validate the following:
-
-Backend
-
- Server starts without errors
-
- All tools return valid output
-
- SSE streaming works end-to-end
-
- Logs show correct tool calls
-
-Frontend
-
- UI receives live stream without freezing
-
- Tool call displays correctly
-
- Multi-step conversations appear fluid
-
- No console errors
-
-Agent Behavior
-
- Agent does not hallucinate medications
-
- Agent handles missing data
-
- Agent follows instructions strictly
-
- Conversations match screenshots in the deliverables
-
-## 7. Summary
+## 5. Summary
 
 The evaluation plan ensures that the Pharmacy Agent is:
-
-Reliable – performs workflows without breaking
-
-Accurate – uses the correct tools and correct data
-
-Robust – handles edge cases gracefully
-
-User-Friendly – streams smoothly with minimal latency
-
-Aligned with Requirements – meets all project specifications
+* Reliable: performs workflows without breaking
+* Accurate: uses the correct tools and correct data
+* Robust: handles edge cases gracefully
+* User-Friendly: streams smoothly with minimal latency
+* Aligned with Requirements: meets all project specifications
 
 This evaluation framework can also be reused if the system is extended with more tools or a larger database.
