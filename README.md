@@ -25,6 +25,16 @@ For every request the agent will use a tool, except unsupported requests - but i
    cd Pharmacy-Agent
    ```
 * Download Docker Desktop: https://www.docker.com/products/docker-desktop
+* Open Docker Desktop
+* Open terminal as administrator, then run (only for Windows):
+  ```
+  wsl --install
+  ``
+* Check with the next code if it succeded.
+  ```
+  wsl --list --verbose
+  ```
+  You should see the docker running.
 * Enter to Pharmacy-Agent folder via explorer
 * Create .env file and add your openai api key
   ```
