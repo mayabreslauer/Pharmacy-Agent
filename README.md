@@ -29,7 +29,7 @@ For every request the agent will use a tool, except unsupported requests - but i
 * Open terminal as administrator, then run (only for Windows):
   ```
   wsl --install
-  ``
+  ```
 * Check with the next code if it succeded.
   ```
   wsl --list --verbose
