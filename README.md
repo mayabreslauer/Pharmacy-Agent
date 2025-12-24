@@ -68,8 +68,8 @@ For every request the agent will use a tool, except unsupported requests - but i
 ## Example of Chat With The Agent
 ```
 User: What medications contain Ibuprofen?
-Agent: Calls tool get_medication_info("Ibuprofen")
-Tool: returns: Nurofen 400mg, non-prescription
+Agent: Calls tool get_medication_info(medication_name="Ibuprofen")
+Tool: returns: Nurofen 400mg, non-prescription...
 Agent: Nurofen contains Ibuprofen...
 ```
 
