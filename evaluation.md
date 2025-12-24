@@ -58,9 +58,9 @@ These tests validate expected and correct behavior.
 
 Scenario	→ Expected Result
 * Valid medication lookup →	Correct tool call + correct DB result
-* Multi-step workflow (Flow 1–3) →	All steps executed with no errors
+* Multi-step workflow (like those in the multi-step demonstration file) →	All steps executed with no errors
 * System handles Hebrew/English	→ Language-adapted responses
-* User updates their question mid-flow	→ Agent adapts without breaking SSE
+* User updates their question mid-flow → Agent adapts without breaking SSE
 * UI stays responsive during long answers →	Frontend displays incremental stream
 
 ### Negative Test Cases & Edge Cases
